@@ -1,0 +1,66 @@
+#main
+{
+  --content-backg:hsl(51, 40%, 96%);;
+  --contrast-backg:#ebe7d1;
+  margin:10px;
+  background-color:var(--content-backg,gray);
+  display:flex;
+  flex-direction:column;
+}
+header{
+  background-color:var(--contrast-backg,gray);
+  border-radius:5px;
+}
+h1{
+  margin-top:10px;
+  font-size:40px;
+}
+#title{
+  text-align:center;
+  font-size:15px;
+  font-family:"Zin Sans Bold"
+}
+main{
+  background-color:var(--content-backg,gray);
+}
+#tribute-info
+{
+  text-align:center;
+}
+#main-topic{
+  max-width:600px;
+  margin:auto;
+}
+footer{
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center;
+  border-radius:5px;
+}
+#footer-contents
+{
+  margin:auto;
+  text-align:center;
+}
+.contents{
+  text-align:justify;
+}
+li{
+  margin-top:10px;
+}
+#image{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:auto;
+}
+time{
+  font-weight:bold;
+}
+#img-caption{
+  text-align:center;
+  font-size:15px;
+}
+#tribute-link:hover{
+  color:#CA6F1E;
+}
