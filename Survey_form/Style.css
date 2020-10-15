@@ -1,0 +1,47 @@
+body{
+  background:#b19cd9;
+  display:flex;
+  flex-direction:column;
+  color:white;
+}
+header
+{
+  color:white;
+  text-align:center;
+}
+h1{
+  font-size:40 px;
+}
+#description{
+  font-size:30 px;
+  margin:auto;
+}
+#main-content
+{
+  margin:auto;
+  margin-top:20px;
+  background-color:#1F0F59;
+  border-radius:5px;
+  width:50%;
+}
+#survey-form{
+  display:flex;
+  flex-direction:column;
+}
+ul{
+  list-style-type:none;
+}
+li
+{
+ margin-top:20px; 
+}
+p1{
+  font-size:15px;
+}
+#submit{
+  background-color:green;
+  color:white;
+  width:75%;
+  margin-top:20px;
+  align-self:center;
+}
