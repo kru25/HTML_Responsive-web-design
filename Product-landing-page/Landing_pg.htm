@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Landing Page</title>
+<link rel="Stylesheet" href="Style.css"> 
+</head>
+<body>
+  <header id="header">
+   <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="original trombones logo">
+    <nav id="nav-bar">
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#video" class="nav-link">How It Works</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+    </nav>
+      </header>
+  <main>
+    <article id="intro">
+      <h2>Handcrafted,home-made masterpieces</h2>
+      <form id="form" action=" https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" placeholder="Enter your email address"><br>
+        <input type="submit" id="submit" value="GET STARTED">
+      </form>
+    </article>
+      <article id="features">
+<section class="feature-class">
+          <img class="feature-img" src="data:image/png;base64,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" alt="Premium Material">
+          <div>
+            <h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
+        </section>
+        <section class="feature-class">
+          <img class="feature-img" src="data:image/png;base64,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"
+               alt="Fast Shipping">
+          <div>
+          <h2>Fast Shipping</h2>
+          <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+          </div>
+        </section>
+        <section class="feature-class">
+          <img class="feature-img" src="data:image/png;base64,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" alt="Quality-Assurance">
+          <div>
+          <h2>Quality Assurance</h2>
+          <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+          </div>
+  </section>        
+  </article>
+  <iframe id="video" width="420" height="300" src="https://www.youtube.com/embed/y8Yv4pnO7qc"></iframe>
+<article id="pricing">
+  <section class="product-section">
+    <div class="product-name">
+      <h3>TENOR TROMBONE</h3>
+    </div>
+    <div class="product-contents">
+      <p class="product-price">$600</p>
+      <ol class="product-describe">
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum dolor.</li>
+        <li>Lorem ipsum.</li>
+      </ol>
+    </div>
+    <button class="Select">SELECT</button>
+  </section>
+    <section class="product-section">
+    <div class="product-name">
+      <h3>BASS TROMBONE</h3>
+    </div>
+    <div class="product-contents">
+      <p class="product-price">$900</p>
+      <ol class="product-describe">
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum.</li>
+        <li>Lorem ipsum dolor.</li>
+        <li>Lorem ipsum.</li>
+      </ol>
+    </div>
+    <button class="Select">SELECT</button>
+  </section>
+    <section class="product-section">
+    <div class="product-name">
+      <h3>VALVE TROMBONE</h3>
+    </div>
+    <div class="product-contents">
+      <p class="product-price">$1200</p>
+      <ol class="product-describe">
+        <li>Plays similar to a Trumpet</li>
+        <li>Great for Jazz Bands</li>
+        <li>Lorem ipsum dolor.</li>
+        <li>Lorem ipsum.</li>
+      </ol>
+    </div>
+    <button class="Select">SELECT</button>
+  </section>
+</article>
+</main>
+<footer>
+  <nav id="footer-nav">
+    <a href="" class="nav-link">Privacy</a>
+    <a href="" class="nav-link">Terms</a>
+    <a href="" class="nav-link">Contact</a>
+  </nav>
+  <p>Copyright 2016,Original Trombones</p>
+</footer>
+</body>
