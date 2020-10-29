@@ -1,0 +1,131 @@
+body{
+  margin:0 px;
+  padding:0 px;
+}
+header{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  padding-top:10px;
+  height:10%;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  background-color:red;
+  border-bottom:3px solid black;
+}
+#navbar{
+  margin-right:30 px;
+}
+#navbar a{
+  text-decoration:inherit;
+  color:white;
+  margin-left:10px;
+  font-size:25px;
+}
+#welcome-section{
+  background-color:#636C6C;
+  min-height:100px;
+  text-align:center;
+}
+#projects{
+  background-color:#7BA4DA;
+  padding-bottom:20px;
+  height:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  max-width:100%;
+}
+h1{
+  text-align:center;
+  font-size:50px;
+  margin-top:50px;
+}
+#intro{
+  text-align:center;
+  color:red;
+  font-size:30px;
+  font-weight:none;
+  margin-bottom:30px;
+}
+#project-list{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-column-gap: 6vw;
+  grid-row-gap: 6vh;
+  max-width: 900px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  justify-items: center;
+  align-items: center;
+}
+#projects img{
+  width:100%;
+  height:100%;
+}
+#project-list a{
+ display: grid;
+  grid-template-rows: 1fr 35px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  border-style: solid;
+  width: 300px;
+  height: 210px;
+  text-decoration: none;
+  color: black;
+  border-width: 2px;
+  border-style: outset;
+  border-color: black;
+}
+#show-all{
+  border: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 25px;
+  text-align: center;
+  color: black;
+  border-color:black;
+}
+#contacts{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  min-height:280px;
+  color:white;
+  border-bottom:5px solid red;
+}
+#contacts h2{
+  margin-top:50px;
+  margin-bottom:0px;
+  font-size:50px;
+}
+#contacts p{
+  margin-bottom:30px;
+  font-size:20px;
+  text-align:center;
+}
+#contact-links{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+}
+#contacts a{
+  display:inline-block;
+  margin-left:30px;
+  text-decoration:inherit;
+  font-size:40px;
+  color:white;
+}
+#footer{
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align:center;
+  background-color:#636C6C;  
+}
